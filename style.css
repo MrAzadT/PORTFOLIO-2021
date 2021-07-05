@@ -300,10 +300,11 @@ p {
   opacity: 0.9;
   z-index: -1;
 }
-#services .service-bottom .icon {
+#services .service-bottom .icon img {
   height: 80px;
   width: 80px;
   margin-bottom: 20px;
+  fill: white;
 }
 #services .service-item h2 {
   font-size: 2rem;
@@ -439,6 +440,7 @@ p {
   margin: 0 auto;
   width: 90%;
 }
+
 #contact .contact-items {
   width: 100%;
 }
@@ -502,8 +504,8 @@ p {
   margin: 0 5px;
 }
 #footer .social-item img {
-  /* filter: grayscale(1);
-  transition: 0.3s ease filter; */
+  filter: grayscale(1);
+  transition: 0.3s ease filter;
 }
 #footer .social-item:hover img {
   filter: grayscale(0);
